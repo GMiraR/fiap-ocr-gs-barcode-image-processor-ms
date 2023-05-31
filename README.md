@@ -1,43 +1,40 @@
-# OCR Image Processing
+# Processamento de Imagens com OCR
 
-![Project Logo](/path/to/logo.png)
+![Logo do Projeto](/caminho/para/logo.png)
 
-This project provides an OCR (Optical Character Recognition) image processing solution using AWS services. It allows you to extract text and barcode information from images, enabling various applications such as food waste reduction, inventory management, and more.
+Este projeto tem como objetivo fornecer uma solução de processamento de imagens com OCR (Reconhecimento Óptico de Caracteres) utilizando serviços da AWS. Ele permite extrair informações de texto e códigos de barras de imagens, possibilitando diversas aplicações, como redução de desperdício de alimentos, gerenciamento de estoque, entre outros.
 
-## Table of Contents
+## Sumário
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Architecture](#architecture)
-- [Contributing](#contributing)
-- [License](#license)
+- [Recursos](#recursos)
+- [Primeiros Passos](#primeiros-passos)
+  - [Pré-requisitos](#pré-requisitos)
+  - [Instalação](#instalação)
+- [Utilização](#utilização)
+- [Arquitetura](#arquitetura)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-## Features
+## Recursos
 
-- Extract text and barcode information from images using OCR.
-- Support for various image formats and sources (local files, S3, URLs).
-- Scalable and serverless architecture using AWS services.
-- Integration with API Gateway for easy deployment and usage.
+- Extração de informações de texto e códigos de barras de imagens utilizando OCR.
+- Suporte para diversos formatos e fontes de imagens (arquivos locais, S3, URLs).
+- Arquitetura escalável e serverless utilizando serviços da AWS.
+- Integração com o API Gateway para implantação e uso facilitados.
 
-## Getting Started
+## Primeiros Passos
 
-### Prerequisites
+### Pré-requisitos
 
-Before getting started, make sure you have the following prerequisites:
+Antes de começar, verifique se você possui os seguintes pré-requisitos:
 
-- AWS account with appropriate permissions.
-- Node.js and npm installed.
-- Git installed.
+- Conta na AWS com permissões adequadas.
+- Node.js e npm instalados.
+- Git instalado.
 
-### Installation
+### Instalação
 
-1. Clone the repository:
+1. Clone o repositório:
 
    ```shell
-   git clone https://github.com/your-username/ocr-image-processing.git
-
-cd ocr-image-processing
-npm install
+   git clone https://github.com/seu-nome-de-usuário/processamento-imagens-ocr.git
