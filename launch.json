@@ -1,0 +1,18 @@
+{
+  "resource": "/process-image",
+  "path": "/process-image",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "identity": {
+      "sourceIp": "127.0.0.1"
+    }
+  },
+  "body": "{\"bucketName\":\"my-bucket\",\"imageKey\":\"example.jpg\"}",
+  "isBase64Encoded": false
+}
