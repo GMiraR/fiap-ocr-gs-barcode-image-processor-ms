@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  localstack:
+    image: localstack/localstack:latest
+    ports:
+      - '4566-4599:4566-4599'
+      - '8080:8080'
+    environment:
+      - SERVICES=s3,lambda,stepfunctions,events,rekognition,textract
+      - DEFAULT_REGION=us-east-1
+      - LAMBDA_EXECUTOR=docker-reuse
+      - DATA_DIR=/tmp/localstack/data
+      - LAMBDA_REMOTE_DOCKER=true
+    volumes:
+      - './.localstack:/tmp/localstack'
+    networks:
+      - localstack_network
+
+networks:
+  localstack_network:
+    driver: bridge
