@@ -1,7 +1,5 @@
 # Processamento de Imagens com OCR
 
-![Logo do Projeto](/caminho/para/logo.png)
-
 Este projeto tem como objetivo fornecer uma solução de processamento de imagens com OCR (Reconhecimento Óptico de Caracteres) utilizando serviços da AWS. Ele permite extrair informações de texto e códigos de barras de imagens, possibilitando diversas aplicações, como redução de desperdício de alimentos, gerenciamento de estoque, entre outros.
 
 ## Sumário
